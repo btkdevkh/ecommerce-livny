@@ -52,7 +52,7 @@ export default function Navbar() {
                 <Link to={'/about'}>អំពីលីវនីនិងផានី</Link>
               </li>
               <li>
-                <button className="cart-item" onClick={handleShow}>Cart {productsCount} Item</button>
+                <button className="cart-item" onClick={handleShow}><i className="fa-solid fa-cart-shopping"></i> {productsCount}</button>
               </li>
             </ul>
           </nav>

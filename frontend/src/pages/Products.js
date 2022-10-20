@@ -7,7 +7,6 @@ export default function Products() {
 
   return (
     <>
-      <h2>ផលិតផល</h2>
       <div className="products">
         {products.map(product => (
           <ProductCard 
